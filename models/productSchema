@@ -1,0 +1,17 @@
+const mongosse= require("mongoose");
+
+const productSchema = mongoose.Schema({
+    image: String,
+    name: String,
+    price: Number,
+    discount: {
+        Type: Number,
+        default: []
+    },
+    bgcolor: String,
+    panelcolor: String,
+    textcolor: String,
+});
+
+
+mongoose.exports = mongoose.model("user", productSchema);
