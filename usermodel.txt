@@ -18,3 +18,12 @@ discount price
 bg color
 panelcolor
 textcolor
+
+signup & login routes
+
+/ --> login or signup
+/shop -->shop
+/users/cart --> cart
+/admin --> admin panel
+/owner/products --> show all products
+/owner/admin --> show admin panel to create products
